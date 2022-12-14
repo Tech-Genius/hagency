@@ -2,6 +2,10 @@ import { Link } from 'react-router-dom'
 import footer from './assets/images/hagency-footer.jpg'
 import './assets/css/Footer.css'
 import { BsArrowUpRightCircle } from "react-icons/bs";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { IoLogoGoogleplus } from "react-icons/io";
 
 function Footer() {
     return (
@@ -41,10 +45,10 @@ function Footer() {
                         Fax: 621-254-2147
                     </p>
                     <div className="footer_icons">
-                        <BsArrowUpRightCircle className='footer_icon' />
-                        <BsArrowUpRightCircle className='footer_icon' />
-                        <BsArrowUpRightCircle className='footer_icon' />
-                        <BsArrowUpRightCircle className='footer_icon' />
+                        <FaFacebookF className='footer_icon' />
+                        <FaTwitter className='footer_icon' />
+                        <FaInstagram className='footer_icon' />
+                        <IoLogoGoogleplus className='footer_icon' />
                     </div>
                 </div>
 
