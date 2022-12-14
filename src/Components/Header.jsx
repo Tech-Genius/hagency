@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './assets/css/Header.css'
 import logo1 from './assets/images/hagency-white-logo.png'
 import { HiBars3BottomRight } from "react-icons/hi2";
+import { FaSearch } from "react-icons/fa";
 
 function Header() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
@@ -20,7 +21,7 @@ function Header() {
                         <li className="menu_item">Portfolio</li>
                         <li className="menu_item">Blog</li>
                         <li className="menu_item button"><button>Let's Talk</button></li>
-                        <li className="menu_item">hh</li>
+                        <li className="menu_item"><FaSearch/></li>
                     </ul>
                 </div>
 

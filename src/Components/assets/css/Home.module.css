@@ -1,0 +1,500 @@
+.homepage {}
+
+
+/* heroImage */
+
+.heroSection {
+    position: relative;
+    height: fit-content;
+}
+
+
+.heroImageOverlay {
+    background: linear-gradient(#211E1E, #252322);
+}
+
+.heroImage {
+    background-image: url(../images/hagency-1.jpg);
+    height: 100vh;
+    opacity: 0.5;
+    background-size: cover;
+    background-position: top;
+}
+
+.heroTextInner {
+    width: 80%;
+    justify-self: center;
+}
+
+.heroText {
+    position: absolute;
+    top: 0;
+    color: white;
+    height: 100%;
+    display: grid;
+    align-items: center;
+    width: 100%;
+}
+
+.heroText h3 {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.heroText p {
+    font-size: 22px;
+    margin-bottom: 25px;
+    line-height: 35px;
+}
+
+
+
+.heroTextButtons button {
+    padding: 15px 65px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.heroTextButtons button.letTalk {
+    background-color: #46D4FE;
+    margin-right: 10px;
+}
+
+.heroTextButtons button.knowMore {
+    background: transparent;
+    margin-left: 10px;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+/* models */
+
+.models {
+    display: grid;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.modelsInner {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+.modelsBox {
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
+    box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
+    padding: 40px 20px;
+}
+
+.modelsBoxIcon {
+    font-size: 40px;
+    color: #372C84;
+    border-radius: 50%;
+    padding: 20px;
+    border: 4px solid #372C84;
+    font-weight: bold;
+}
+.modelsBox h3{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.modelsBox p{
+    color: #333333dc;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.modelsBox button{
+    border: 1px solid #372C84;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: #372C84;
+    font-weight: bold;
+    font-size: 17px;
+    background: none;
+    cursor: pointer;
+}
+
+.modelsBox button:hover{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+
+
+/* firstStep */
+
+.firstStep{
+    position: relative;
+}
+
+
+.firstStep .firstStepOverlay{
+    background:#0A0A0A;
+}
+
+.firstStep .firstStepImage{
+    background-image: url('../images/hagency-footer.jpg');
+    opacity: 0.2;
+    height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.firstStepText{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: grid;
+    align-items: center;
+    height: 100%;
+}
+
+.firstStepText .firstStepTextInner{
+    width: 70%;
+    justify-self: center;
+}
+
+.firstStepText h3{
+    font-size: 40px;
+}
+
+.firstStepText h3.blue{
+    color: #46D4FE;
+}
+
+
+
+
+/* services */
+
+.services{
+    display: grid;
+    padding-top: 100px;
+    background-color: #FCFCFC;
+}
+
+.serviceIntroText{
+    text-align: center;
+    display: grid;
+}
+
+.serviceIntroText h3{
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.serviceIntroText .star{
+display: flex;
+width: fit-content;
+justify-self: center;
+}
+
+.serviceIntroText .star hr{
+    width: 100px;
+    border-top: 2px #333333 solid !important;
+    border: none;
+}
+
+.serviceIntroText .serviceIntroTextIcon{
+    color: #372C84;
+    margin: 0px 10px;
+}
+
+
+
+.serviceInner {
+    margin-top: 50px;
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+.serviceBox {
+    text-align: center;
+    width: 80%;
+    justify-self: center;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
+    box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
+    padding: 40px 20px;
+    margin: 20px 0px;
+}
+
+.serviceBoxIcon {
+    font-size: 40px;
+    color: #372C84;
+    border-radius: 50%;
+    padding: 20px;
+    border: 4px solid #372C84;
+    font-weight: bold;
+}
+.serviceBox h3{
+    color: #333333;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+
+.serviceBox p{
+    color: #333333dc;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* powerPerformance */
+
+.powerPerformance{
+    margin-top: 100px;
+    height: fit-content;
+    position: relative;
+}
+
+.powerPerformanceOverlay{
+    background: linear-gradient(#211E1E, #252322); 
+}
+
+.powerPerformanceImage{
+    background-image: url(../images/hagency-2.jpg);
+    height: 600px;
+    opacity: 0.4;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.powerPerformanceText{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    display: grid;
+    align-items: center;
+}
+
+.powerPerformanceTextInner{
+    width: 80%;
+    justify-self: center;
+}
+
+.powerPerformanceText .powerPerformanceTextInner hr{
+    width: 250px;
+    border-top: 4px #46D4FE solid !important;
+    border: none;
+    float: right;
+}  
+
+.powerPerformanceText .powerPerformanceTextInner h3{
+    margin-top: 20px;
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.powerPerformanceText .powerPerformanceTextInner p{
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+
+/* letWork */
+
+.letWork{
+    padding: 100px 0px;
+    display: grid;
+    background-color: #606060;
+}
+
+.letWorkInner{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+}
+
+.letWorkInner .letWorkBox{
+    width: 95%;
+    justify-self: center;
+}
+
+.letWorkBox#img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.letWorkBox .letWorkBoxTextInner .line{
+    width: 150px;
+    border-top: 4px #46D4FE solid !important;
+    border: none;
+    margin-bottom: 20px;
+}  
+
+.letWorkBox .letWorkBoxTextInner h3{
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+}
+.letWorkBox .letWorkBoxTextInner h3 span{
+    color: #46D4FE;
+    font-size: 55px;
+}
+
+.letWorkBox .letWorkBoxTextInner p{
+    color: white;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+    .modelsInner{
+        width: 90%;
+    }
+
+    .serviceInner{
+        width: 90%;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+
+ 
+    .heroText h3 {
+        font-size: 2.5rem;
+    }
+
+    .heroText p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .heroTextButtons button.letTalk {
+        margin-right: 0px;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+
+    .heroTextButtons button.knowMore {
+        margin-left: 0px;
+        margin-top: 5px;
+        width: 100%;
+    }
+
+
+/* models */
+    .modelsInner{
+        grid-template-columns: 1fr;
+    }
+
+    .modelsBox{
+        margin: 20px 0px;
+    }
+
+    .modelsBoxIcon {
+        font-size: 30px;
+    }
+    .modelsBox h3{
+        font-size: 23px;
+    }
+
+
+
+/* first step */
+
+    .firstStepText .firstStepTextInner{
+        width: 90%;
+        justify-self: center;
+    }
+    
+    .firstStepText h3{
+        font-size: 28px;
+    }
+
+
+
+    /* service */
+    .serviceInner{
+        grid-template-columns: 1fr;
+    }
+
+    .serviceIntroText h3{
+        font-size: 30px;
+    }
+
+    .serviceBox{
+        margin: 20px 0px;
+    }
+
+    .serviceBoxIcon {
+        font-size: 30px;
+    }
+    .serviceBox h3{
+        font-size: 23px;
+    }
+
+
+    /* powerPerformanceText */
+
+    .powerPerformanceText .powerPerformanceTextInner h3{
+        font-size: 30px;
+    }
+    .powerPerformanceText .powerPerformanceTextInner p{
+        font-size: 20px;
+    }
+
+
+    /* letWork */
+    .letWorkInner{
+        grid-template-columns: 1fr;
+    }
+    .letWorkBox{
+        margin-top: 20px;
+    }
+    
+    .letWorkBox .letWorkBoxTextInner h3 span{
+        font-size: 30px;
+    }
+}
