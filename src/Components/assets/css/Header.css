@@ -1,0 +1,170 @@
+.header{
+    padding: 1px 0px;
+    margin: 0;
+    display: grid;
+    background: linear-gradient(#272727,#211E1E );
+    position: relative;
+}
+.header_inner{
+    width: 90%;
+    justify-self: center;
+display: flex;
+position: relative;
+align-items: center;
+}
+
+/* logo */
+
+.logo img{
+    height: 80px;
+}
+
+/* menu */
+.menu{
+   right: 0;
+    position: absolute;
+}
+.menu ul.menu_links{
+    display: flex;
+    list-style-type: none;
+align-items: center;
+}
+
+.menu ul.menu_links li{
+    padding: 0px 20px;
+    margin: 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul.menu_links li button{
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: #5f54a9;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu ul.menu_links li button:hover{
+    background-color:#4E93F4 ;
+}
+
+
+ /* sm_cntrl */
+
+ .sm_cntrl{
+    display: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:850px){
+    .logo img{
+        height: 60px;
+    }
+    .menu ul.menu_links li{
+        padding: 0px 10px;  
+    }
+}
+
+
+
+@media screen and (max-width:768px){
+    .logo img{
+        height: 50px;
+    }
+
+    .header_inner{
+        position: unset;
+    }
+    .header_inner .menu{
+    display: none;
+}
+    .sm_menu{
+        width: 100%;
+        margin-top: 55px;
+        background-color: #211E1E;
+        top: 0;
+        right: 0;
+        position: absolute;
+        animation: zoom-in-zoom-out 1s ease;
+        z-index: 990;
+     }
+
+     
+  @keyframes zoom-in-zoom-out {
+
+
+ 
+    0% {
+      transform: skew(90deg);
+    }
+
+}
+     .sm_menu ul.menu_links{
+         display: grid;
+         padding: 0;
+         list-style-type: none;
+         align-items: center;
+       
+     }
+
+
+    .sm_menu ul.menu_links li{
+        padding: 15px 0px; 
+        font-size: 15px;
+        border-bottom: 1px dotted rgba(197, 191, 191, 0.493);
+        width: 90%;
+        justify-self: center;
+        font-weight: bold;
+        color: white;
+    }
+
+    .sm_menu ul.menu_links li.button{
+        grid-row: 6;
+        border: none;
+    }
+
+    .sm_menu ul.menu_links li button{
+        padding: 15px 25px;
+        font-size: 15px;
+        border-radius: 5px;
+        color: white;
+        background-color: #5f54a9;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+
+    /* sm_cntrl */
+
+    .sm_cntrl{
+        right: 0;
+        position: absolute;
+        margin-right: 50px;
+        display: block;
+    }
+    .sm_cntrl .cntrl{
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+}
+
+

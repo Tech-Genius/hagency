@@ -1,0 +1,111 @@
+.footer{
+    display: grid;
+    background-color: #0A0A0A;
+    position: relative;
+    align-items: center;
+}
+
+.upper_footer{
+    background-image: url('../images/hagency-footer.jpg');
+    padding: 50px;
+    opacity: 0.2;
+    position: relative;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+.nexted-overlay-footer{
+    grid-template-columns: 1fr 1fr 2fr;
+    display: grid;
+    position: absolute;
+   top: 0;
+   color: white;
+width: 80%;
+justify-self: center;
+padding: 100px 0px;
+}
+
+.nexted-overlay-footer .footer_box h3{
+    color: #46D4FE;
+    font-size: 28px;
+}
+
+.nexted-overlay-footer .footer_box ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.nexted-overlay-footer .footer_box ul li{
+    padding: 10px 0px;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    display: flex;
+}
+.nexted-overlay-footer .footer_box ul li  .footer_box_icon{
+    font-weight: 600;
+    font-size: 20px; 
+    margin-right: 15px;
+}
+
+.nexted-overlay-footer .footer_box.box3{
+    text-align: right;
+}
+
+.nexted-overlay-footer .footer_box.box3 h3{
+    color: #46D4FE;
+    font-size: 28px;
+}
+
+.nexted-overlay-footer .footer_box.box3 hr{
+    width: 150px;
+    border-top: 3px #46D4FE solid !important;
+    border: none;
+float: right;
+margin-bottom: 20px;
+}
+
+.nexted-overlay-footer .footer_box.box3 p{
+    margin-top: 60px;
+    line-height: 30px;
+}
+
+.nexted-overlay-footer .footer_box.box3 .footer_icons .footer_icon{
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #0a0a0a6b;
+    font-size: 23px;
+    color: #46D4FE;
+    margin: 0px 5px;
+}
+
+.copywright p{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    .nexted-overlay-footer{
+        grid-template-columns: 1fr 1fr,
+        1fr;
+    }
+
+    .upper_footer{
+        height: 600px;
+    }
+
+    .nexted-overlay-footer .footer_box.box3{
+        text-align: center;
+        width: 100%;
+    }
+
+}
