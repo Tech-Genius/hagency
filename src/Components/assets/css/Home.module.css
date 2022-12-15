@@ -56,6 +56,8 @@
     font-size: 17px;
     font-weight: bold;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 .heroTextButtons button.letTalk {
@@ -403,7 +405,7 @@ justify-self: center;
 
  
     .heroText h3 {
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .heroText p {
