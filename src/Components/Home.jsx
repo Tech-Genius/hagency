@@ -4,9 +4,11 @@ import { BsArrowUpRightCircle } from "react-icons/bs";
 import { FaStar } from "react-icons/fa";
 import { FaJournalWhills } from "react-icons/fa";
 import { FaDollarSign } from "react-icons/fa";
+import { FaCheck } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import letwork from './assets/images/hagency-3.jpg'
+import pricingDiscount from './assets/images/pricing.png'
 function Home() {
     return (
         <div className={style.homepage}>
@@ -194,14 +196,45 @@ function Home() {
 
             <div className={style.pricing}>
                 <div className={style.pricingInner}>
-                    <div className={style.pricingBox}>
+                    <div className={style.pricingBox} id={style.standard}>
+                        <h3>Standard</h3>
+                        <h5>$59 / month</h5>
+                        <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat.</p>
+
+                        <div className={style.checkmarks}>
+                            <p><FaCheck className={style.pricingIcon} /> Integer pulvinar at</p>
+                            <p><FaCheck className={style.pricingIcon} /> Nullam mollis interdum</p>
+                            <p><FaCheck className={style.pricingIcon} /> Suscipit sed erat</p>
+                            <p><FaCheck className={style.pricingIcon} /> Feugiat mauris molestie</p>
+                        </div>
+                        <Link><button>SIGN UP</button></Link>
+                    </div>
+                    <div className={style.pricingBox} id={style.premium}>
+                        <h3>Premium</h3>
+                        <h5>$99 / month</h5>
+                        <p>Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat.</p>
+
+                        <div className={style.checkmarks}>
+                            <p><FaCheck className={style.pricingIcon} /> Integer pulvinar at</p>
+                            <p><FaCheck className={style.pricingIcon} /> Nullam mollis interdum</p>
+                            <p><FaCheck className={style.pricingIcon} /> Suscipit sed erat</p>
+                            <p><FaCheck className={style.pricingIcon} /> Feugiat mauris molestie</p>
+                        </div>
+                        <Link><button>SIGN UP</button></Link>
 
                     </div>
-                    <div className={style.pricingBox}>
+                    <div className={style.pricingBox} id={style.grab}>
+                        <img src={pricingDiscount} alt="" />
+                        <h3>Grab New Year's Offer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat. Integer pulvinar at eros at faucibus.</p>
 
-                    </div>
-                    <div className={style.pricingBox}>
+                        <div className={style.star}>
+                            <hr />
+                            <FaStar className={style.pricingBoxIcon} />
+                            <hr />
 
+                        </div>
+                        <Link><button>Grab Now</button></Link>
                     </div>
                 </div>
 

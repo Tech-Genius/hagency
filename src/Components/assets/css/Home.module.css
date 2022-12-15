@@ -439,12 +439,139 @@
 
 
 
+/* pricing */
+
+.pricing{
+    margin-top: 100px;
+    display: grid;
+    background-color: #FCFCFC;
+    padding: 100px 0px;
+}
+
+.pricingInner{
+    width: 90%;
+    justify-self: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+   align-items: center;
+}
+
+.pricingInner .pricingBox{
+    width: 80%;
+    justify-self: center;
+}
+
+.pricingBox#standard h3, .pricingBox#premium h3{
+    font-size: 45px;
+    font-weight: 800;
+    color: #4A4A4A;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.pricingBox#standard h5, .pricingBox#premium h5{
+font-size: 21px;
+margin: 0;
+color: #4A4A4A;
+}
+
+.pricingBox#standard p, .pricingBox#premium p{
+    font-size: 18px;
+    color: #4A4A4A;
+    word-spacing: 1px;
+    line-height: 30px;
+}
+
+.pricingBox .checkmarks{
+    margin-top: 50px;
+}
+.pricingBox .pricingIcon{
+    color: #372C84;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.pricingBox p{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.pricingBox#standard button, .pricingBox#premium button{
+    padding: 15px 40px;
+    background-color: #372C84;
+    border-radius: 30px;
+    font-size: 17px;
+    color: white;
+    font-weight:800;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    cursor:  pointer;
+}
 
 
+.pricingBox#grab{
+    background: linear-gradient(#46D4FE ,#372C84);
+    border-radius: 10px;
+text-align: center;
+box-shadow: 3px 3px 8px 2px grey;
+height: 100%;
+padding-top: 50px !important;
+padding-top: 50px !important;
+}
+
+.pricingBox#grab img{
+    height: 170px;
+}
+
+.pricingBox#grab h3{
+    color: white;
+    text-shadow: 3px 3px 15px rgb(10, 10, 10);
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.pricingBox#grab {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 0px 30px;
+    line-height: 30px;
+}
 
 
+.pricingBox#grab .star{
+    width: 100%;
+    display: flex;
+    align-items: center !important;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
 
+.pricingBox#grab .star hr{
+    width: 80px;
+    margin: 0;
+}
 
+.pricingBox#grab .star .pricingBoxIcon{
+    margin: 0px 20px;
+}
+
+.pricingBox#grab button{
+    padding: 15px 40px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight:800;
+    letter-spacing: 0.5px;
+    border: none;
+    outline: none;
+    cursor:  pointer;
+}
 
 
 
@@ -603,5 +730,33 @@
     
 .changeManagementBox#text2 p{
     font-size: 16px;
+}
+
+/* pricing */
+.pricingInner{
+    grid-template-columns: 1fr;
+}
+.pricingInner .pricingBox{
+    margin: 40px 0px;
+    width: 90%;
+}
+
+.pricingBox#grab{
+padding: 30px 20px !important;
+height: auto;
+}
+.pricingBox#grab img{
+    height: 140px;
+}
+
+.pricingBox#grab h3{
+font-size: 23px;
+}
+
+.pricingBox#standard h3, .pricingBox#premium h3{
+    font-size: 30px;
+}
+.pricingBox#standard h5, .pricingBox#premium h5{
+    font-size: 17px;
 }
 }
