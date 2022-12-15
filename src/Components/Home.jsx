@@ -7,8 +7,13 @@ import { FaDollarSign } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
+import { FaComment } from "react-icons/fa";
+import { FaFolder } from "react-icons/fa";
 import letwork from './assets/images/hagency-3.jpg'
 import pricingDiscount from './assets/images/pricing.png'
+import post1 from './assets/images/hagency-post-1.jpg'
+import post2 from './assets/images/hagency-post-2.jpg'
+import post3 from './assets/images/hagency-post-3.jpg'
 function Home() {
     return (
         <div className={style.homepage}>
@@ -238,6 +243,79 @@ function Home() {
                     </div>
                 </div>
 
+
+            </div>
+
+
+            {/* blog */}
+
+            <div className={style.blog}>
+                <div className={style.blogIntroText}>
+                    <h3>Our Dedicated Blog</h3>
+                    <div className={style.star}>
+                        <hr />
+                        <FaStar className={style.blogIntroTextIcon} />
+                        <hr />
+                    </div>
+
+                </div>
+                <div className={style.blogInner}>
+                    <div className={style.blogBox}>
+                        <div className={style.blogImgNBtn}>
+                            <img src={post1} alt="" />
+                            <div className={style.blogBtn}>
+                                <Link><button>Learn More</button></Link>
+                            </div>
+                        </div>
+                        <h3>Velit a facilisis <br /> sagittis</h3>
+                        <p>Vivamus aliquet eget ipsum non molestie. Nulla sollicitudin quam sit amet egestas auctor. Maecenas vel…</p>
+                        <div className={style.blogFooter}>
+                            <p><FaComment className={style.blogFooterIcon} /> 0 Comments</p>
+                            <p><FaFolder className={style.blogFooterIcon} /> Banking</p>
+                        </div>
+                    </div>
+
+                    <div className={style.blogBox}>
+                        <div className={style.blogImgNBtn}>
+                            <img src={post2} alt="" />
+                            <div className={style.blogBtn}>
+                                <Link><button>Learn More</button></Link>
+                            </div>
+                        </div>
+                        <h3>Auctor a metus <br /> ut</h3>
+                        <p>Vivamus aliquet eget ipsum non molestie. Nulla sollicitudin quam sit amet egestas auctor. Maecenas vel…</p>
+                        <div className={style.blogFooter}>
+                            <p><FaComment className={style.blogFooterIcon} /> 0 Comments</p>
+                            <p><FaFolder className={style.blogFooterIcon} /> Banking</p>
+                        </div>
+                    </div>
+
+                    <div className={style.blogBox}>
+                        <div className={style.blogImgNBtn}>
+                            <img src={post3} alt="" />
+                            <div className={style.blogBtn}>
+                                <Link><button>Learn More</button></Link>
+                            </div>
+                        </div>
+                        <h3>Habitant morbi <br /> tristique</h3>
+                        <p>Vivamus aliquet eget ipsum non molestie. Nulla sollicitudin quam sit amet egestas auctor. Maecenas vel…</p>
+                        <div className={style.blogFooter}>
+                            <p><FaComment className={style.blogFooterIcon} /> 0 Comments</p>
+                            <p><FaFolder className={style.blogFooterIcon} /> Banking</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {/* work */}
+
+            <div className={style.work}>
+                <div className={style.workInner}>
+                    <h3>Want to work with us?</h3>
+                    <Link><button>SIGN UP NOW</button></Link>
+
+                </div>
 
             </div>
 

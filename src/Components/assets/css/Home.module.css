@@ -207,6 +207,7 @@
     font-size: 45px;
     font-weight: 800;
     margin-bottom: 20px;
+    color: #4A4A4A;
 }
 
 .serviceIntroText .star {
@@ -400,12 +401,16 @@
     display: grid;
     width: 90%;
     justify-self: center;
-    align-items: center;
+    align-items: center !important;
 }
 
-.changeManagementBox{
+.changeManagementBox {
     width: 80%;
     justify-self: center;
+}
+
+.changeManagementBox#text1{
+    margin-top: 30px;
 }
 
 .changeManagementBox#text1 .line {
@@ -415,7 +420,7 @@
     margin-bottom: 20px;
 }
 
-.changeManagementBox#text1 h3{
+.changeManagementBox#text1 h3 {
     font-size: 60px;
     font-weight: 800;
     color: #4A4A4A;
@@ -423,13 +428,13 @@
     margin: 30px 0px;
 }
 
-.changeManagementBox#text1 p{
+.changeManagementBox#text1 p {
     font-size: 25px;
     color: #4A4A55;
 }
 
 
-.changeManagementBox#text2 p{
+.changeManagementBox#text2 p {
     color: #4A4F4F;
     font-size: 18px;
     word-spacing: 1px;
@@ -441,19 +446,19 @@
 
 /* pricing */
 
-.pricing{
+.pricing {
     margin-top: 100px;
     display: grid;
     background-color: #FCFCFC;
-    padding: 100px 0px;
+    padding: 150px 0px;
 }
 
-.pricingInner{
+.pricingInner {
     width: 90%;
     justify-self: center;
     grid-template-columns: 1fr 1fr 1fr;
     display: grid;
-   align-items: center;
+    align-items: center;
 }
 
 .pricingInner .pricingBox{
@@ -461,7 +466,8 @@
     justify-self: center;
 }
 
-.pricingBox#standard h3, .pricingBox#premium h3{
+.pricingBox#standard h3,
+.pricingBox#premium h3 {
     font-size: 45px;
     font-weight: 800;
     color: #4A4A4A;
@@ -469,63 +475,67 @@
     margin-top: 0;
 }
 
-.pricingBox#standard h5, .pricingBox#premium h5{
-font-size: 21px;
-margin: 0;
-color: #4A4A4A;
+.pricingBox#standard h5,
+.pricingBox#premium h5 {
+    font-size: 21px;
+    margin: 0;
+    color: #4A4A4A;
 }
 
-.pricingBox#standard p, .pricingBox#premium p{
+.pricingBox#standard p,
+.pricingBox#premium p {
     font-size: 18px;
     color: #4A4A4A;
     word-spacing: 1px;
     line-height: 30px;
 }
 
-.pricingBox .checkmarks{
+.pricingBox .checkmarks {
     margin-top: 50px;
 }
-.pricingBox .pricingIcon{
+
+.pricingBox .pricingIcon {
     color: #372C84;
     margin-right: 10px;
     font-size: 18px;
 }
 
-.pricingBox p{
+.pricingBox p {
     display: flex;
     align-items: center;
     margin: 10px 0px;
 }
 
-.pricingBox#standard button, .pricingBox#premium button{
+.pricingBox#standard button,
+.pricingBox#premium button {
     padding: 15px 40px;
     background-color: #372C84;
     border-radius: 30px;
     font-size: 17px;
     color: white;
-    font-weight:800;
+    font-weight: 800;
     letter-spacing: 1px;
     border: none;
     outline: none;
-    cursor:  pointer;
+    cursor: pointer;
 }
 
 
-.pricingBox#grab{
-    background: linear-gradient(#46D4FE ,#372C84);
+.pricingBox#grab {
+    background: linear-gradient(#46D4FE, #372C84);
     border-radius: 10px;
-text-align: center;
-box-shadow: 3px 3px 8px 2px grey;
-height: 100%;
-padding-top: 50px !important;
-padding-top: 50px !important;
+    text-align: center;
+    box-shadow: 3px 3px 8px 2px grey;
+    height: 100%;
+    padding-top: 50px !important;
+    padding-top: 50px !important;
 }
 
-.pricingBox#grab img{
+.pricingBox#grab img {
     height: 170px;
 }
 
-.pricingBox#grab h3{
+.pricingBox#grab h3 {
     color: white;
     text-shadow: 3px 3px 15px rgb(10, 10, 10);
     font-size: 28px;
@@ -542,35 +552,239 @@ padding-top: 50px !important;
 }
 
 
-.pricingBox#grab .star{
+.pricingBox#grab .star {
     width: 100%;
     display: flex;
     align-items: center !important;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 20px;
-    
+
 }
 
-.pricingBox#grab .star hr{
+.pricingBox#grab .star hr {
     width: 80px;
     margin: 0;
 }
 
-.pricingBox#grab .star .pricingBoxIcon{
+.pricingBox#grab .star .pricingBoxIcon {
     margin: 0px 20px;
 }
 
-.pricingBox#grab button{
+.pricingBox#grab button {
     padding: 15px 40px;
     background-color: white;
     border-radius: 30px;
     font-size: 17px;
-    font-weight:800;
+    font-weight: 800;
     letter-spacing: 0.5px;
     border: none;
     outline: none;
-    cursor:  pointer;
+    cursor: pointer;
+}
+
+
+
+/* .blog */
+
+.blog {
+    margin-top: 100px;
+    display: grid;
+    margin-bottom: 100px;
+}
+
+
+.blogIntroText {
+    text-align: center;
+    display: grid;
+}
+
+.blogIntroText h3 {
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    color: #4A4A4A;
+}
+
+.blogIntroText .star {
+    display: flex;
+    width: fit-content;
+    justify-self: center;
+}
+
+.blogIntroText .star hr {
+    width: 100px;
+    border-top: 2px #333333 solid !important;
+    border: none;
+}
+
+.blogIntroText .blogIntroTextIcon {
+    color: #372C84;
+    margin: 0px 10px;
+}
+
+
+.blog .blogInner {
+    margin-top: 70px;
+    width: 85%;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.blogInner .blogBox {
+    width: 95%;
+    justify-self: center;
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    align-items: center;
+}
+
+.blogInner .blogBox .blogImgNBtn {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.blogInner .blogBox .blogImgNBtn .blogBtn {
+    position: absolute;
+    top: 0;
+    z-index: 990;
+    width: 100%;
+    background-color: #382c846e;
+    height: 99%;
+    display: none;
+    place-items: center;
+    animation: zoom-in-zoom-out 0.5s ease;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.blogInner .blogBox .blogImgNBtn .blogBtn button {
+    padding: 10px 30px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    background-color: transparent;
+    font-size: 13.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.blogInner .blogBox .blogImgNBtn .blogBtn button:hover {
+    background-color: white;
+    color: #4A4A4A;
+    transform: 0.5s;
+}
+
+.blogInner .blogBox .blogImgNBtn:hover .blogBtn {
+    display: grid;
+}
+
+
+.blogInner .blogBox img {
+    width: 100%;
+
+}
+
+.blogInner .blogBox h3 {
+    color: #5f54a9;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.blogInner .blogBox p {
+    text-align: center;
+    padding: 0px 20px;
+    color: #4A4A4A;
+    font-size: 17px;
+    line-height: 30px;
+    padding-bottom: 80px;
+}
+
+.blogInner .blogBox .blogFooter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    padding: 10px 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.blogInner .blogBox .blogFooter p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+    padding: 0px 5px;
+}
+
+.blogBox .blogFooter .blogFooterIcon {
+    color: #4A4A4A;
+    margin-right: 5px;
+
+}
+
+
+
+/* work */
+
+.work{
+    background: linear-gradient(to right,#372C84,#46D4FE);
+    padding: 100px 0px;
+    display: grid;
+}
+
+.workInner{
+   display: flex;
+   width: 75%;
+   justify-self: center;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.workInner h3{
+    color: white;
+    text-shadow: 3px 3px 15px rgb(10, 10, 10);
+    font-size: 50px;
+    margin: 0px;
+    margin: 10px 0px;
+    font-weight: 800;
+}
+
+.workInner button{
+    padding: 13px 38px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    border: 3px solid white;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px 0px;
 }
 
 
@@ -581,11 +795,12 @@ padding-top: 50px !important;
 
 
 
-@media screen and (max-width:1200px){
-    .changeManagementInner{
+@media screen and (max-width:1200px) {
+    .changeManagementInner {
         width: 95%;
     }
-    .changeManagementBox{
+
+    .changeManagementBox {
         width: 95%;
     }
 }
@@ -601,12 +816,15 @@ padding-top: 50px !important;
     .serviceInner {
         width: 90%;
     }
+    .blog .blogInner{
+        width: 90%;
+    }
 
-    .changeManagementInner{
+    .changeManagementInner {
         grid-template-columns: 1fr;
     }
 
-    .changeManagementBox{
+    .changeManagementBox {
         width: 90%;
         margin-top: 10px;
     }
@@ -717,46 +935,84 @@ padding-top: 50px !important;
         font-size: 30px;
     }
 
-/* changeMangement */
-    .changeManagementBox#text1 h3{
+    /* changeMangement */
+    .changeManagementBox#text1 h3 {
         font-size: 30px;
         line-height: 40px;
         margin: 5px 0px;
     }
 
-    .changeManagementBox#text1 p{
+    .changeManagementBox#text1 p {
         font-size: 23px;
     }
-    
-.changeManagementBox#text2 p{
-    font-size: 16px;
-}
 
-/* pricing */
-.pricingInner{
-    grid-template-columns: 1fr;
-}
-.pricingInner .pricingBox{
-    margin: 40px 0px;
-    width: 90%;
-}
+    .changeManagementBox#text2 p {
+        font-size: 16px;
+    }
 
-.pricingBox#grab{
-padding: 30px 20px !important;
-height: auto;
-}
-.pricingBox#grab img{
-    height: 140px;
-}
+    /* pricing */
+    .pricing {
+        padding: 50px 0px;
+    }
+    .pricingInner {
+        grid-template-columns: 1fr;
+    }
 
-.pricingBox#grab h3{
-font-size: 23px;
-}
+    .pricingInner .pricingBox {
+        margin: 40px 0px;
+        width: 90%;
+    }
 
-.pricingBox#standard h3, .pricingBox#premium h3{
-    font-size: 30px;
-}
-.pricingBox#standard h5, .pricingBox#premium h5{
-    font-size: 17px;
-}
+    .pricingBox#grab {
+        padding: 30px 20px !important;
+        height: auto;
+    }
+
+    .pricingBox#grab img {
+        height: 140px;
+    }
+
+    .pricingBox#grab h3 {
+        font-size: 23px;
+    }
+
+    .pricingBox#standard h3,
+    .pricingBox#premium h3 {
+        font-size: 30px;
+    }
+
+    .pricingBox#standard h5,
+    .pricingBox#premium h5 {
+        font-size: 17px;
+    }
+
+    /* blog */
+
+    .blogIntroText h3{
+        font-size: 30px;
+    }
+    .blog .blogInner{
+        grid-template-columns: 1fr;
+    }
+
+
+    .blog .blogInner .blogBox{
+        margin: 20px 0px;
+    }
+    .blogInner .blogBox h3{
+        font-size: 25px;
+    }
+    .blogInner .blogBox p{
+        font-size: 16px;
+    }
+
+
+    /* work */
+    .workInner{
+        width: 90%;
+    }
+    .workInner h3{
+        font-size: 30px;
+        text-align: center;
+    }
 }
