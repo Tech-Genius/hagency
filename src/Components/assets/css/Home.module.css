@@ -96,8 +96,10 @@
     border-radius: 5px;
     text-align: center;
     -webkit-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
-    -moz-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
-    box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
+    -moz-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
+    ;
+    box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
+    ;
     padding: 40px 20px;
 }
 
@@ -109,20 +111,21 @@
     border: 4px solid #372C84;
     font-weight: bold;
 }
-.modelsBox h3{
+
+.modelsBox h3 {
     color: #333333;
     font-size: 25px;
     font-weight: 800;
 }
 
 
-.modelsBox p{
+.modelsBox p {
     color: #333333dc;
     font-size: 18px;
     margin-bottom: 25px;
 }
 
-.modelsBox button{
+.modelsBox button {
     border: 1px solid #372C84;
     padding: 12px 28px;
     border-radius: 20px;
@@ -133,7 +136,7 @@
     cursor: pointer;
 }
 
-.modelsBox button:hover{
+.modelsBox button:hover {
     transform: rotate(360deg);
     transition: 0.5s;
 }
@@ -142,16 +145,16 @@
 
 /* firstStep */
 
-.firstStep{
+.firstStep {
     position: relative;
 }
 
 
-.firstStep .firstStepOverlay{
-    background:#0A0A0A;
+.firstStep .firstStepOverlay {
+    background: #0A0A0A;
 }
 
-.firstStep .firstStepImage{
+.firstStep .firstStepImage {
     background-image: url('../images/hagency-footer.jpg');
     opacity: 0.2;
     height: 500px;
@@ -160,7 +163,7 @@
 }
 
 
-.firstStepText{
+.firstStepText {
     position: absolute;
     top: 0;
     width: 100%;
@@ -171,16 +174,16 @@
     height: 100%;
 }
 
-.firstStepText .firstStepTextInner{
+.firstStepText .firstStepTextInner {
     width: 70%;
     justify-self: center;
 }
 
-.firstStepText h3{
+.firstStepText h3 {
     font-size: 40px;
 }
 
-.firstStepText h3.blue{
+.firstStepText h3.blue {
     color: #46D4FE;
 }
 
@@ -189,36 +192,36 @@
 
 /* services */
 
-.services{
+.services {
     display: grid;
     padding-top: 100px;
     background-color: #FCFCFC;
 }
 
-.serviceIntroText{
+.serviceIntroText {
     text-align: center;
     display: grid;
 }
 
-.serviceIntroText h3{
+.serviceIntroText h3 {
     font-size: 45px;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.serviceIntroText .star{
-display: flex;
-width: fit-content;
-justify-self: center;
+.serviceIntroText .star {
+    display: flex;
+    width: fit-content;
+    justify-self: center;
 }
 
-.serviceIntroText .star hr{
+.serviceIntroText .star hr {
     width: 100px;
     border-top: 2px #333333 solid !important;
     border: none;
 }
 
-.serviceIntroText .serviceIntroTextIcon{
+.serviceIntroText .serviceIntroTextIcon {
     color: #372C84;
     margin: 0px 10px;
 }
@@ -240,8 +243,10 @@ justify-self: center;
     border-radius: 5px;
     text-align: center;
     -webkit-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
-    -moz-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
-    box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);;
+    -moz-box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
+    ;
+    box-shadow: 0px 1px 5px 2px rgba(220, 220, 220, 0.336);
+    ;
     padding: 40px 20px;
     margin: 20px 0px;
 }
@@ -254,14 +259,15 @@ justify-self: center;
     border: 4px solid #372C84;
     font-weight: bold;
 }
-.serviceBox h3{
+
+.serviceBox h3 {
     color: #333333;
     font-size: 25px;
     font-weight: 800;
 }
 
 
-.serviceBox p{
+.serviceBox p {
     color: #333333dc;
     font-size: 18px;
     margin-bottom: 25px;
@@ -270,17 +276,17 @@ justify-self: center;
 
 /* powerPerformance */
 
-.powerPerformance{
+.powerPerformance {
     margin-top: 100px;
     height: fit-content;
     position: relative;
 }
 
-.powerPerformanceOverlay{
-    background: linear-gradient(#211E1E, #252322); 
+.powerPerformanceOverlay {
+    background: linear-gradient(#211E1E, #252322);
 }
 
-.powerPerformanceImage{
+.powerPerformanceImage {
     background-image: url(../images/hagency-2.jpg);
     height: 600px;
     opacity: 0.4;
@@ -288,7 +294,7 @@ justify-self: center;
     background-position: top;
 }
 
-.powerPerformanceText{
+.powerPerformanceText {
     position: absolute;
     top: 0;
     height: 100%;
@@ -298,19 +304,19 @@ justify-self: center;
     align-items: center;
 }
 
-.powerPerformanceTextInner{
+.powerPerformanceTextInner {
     width: 80%;
     justify-self: center;
 }
 
-.powerPerformanceText .powerPerformanceTextInner hr{
+.powerPerformanceText .powerPerformanceTextInner hr {
     width: 250px;
     border-top: 4px #46D4FE solid !important;
     border: none;
     float: right;
-}  
+}
 
-.powerPerformanceText .powerPerformanceTextInner h3{
+.powerPerformanceText .powerPerformanceTextInner h3 {
     margin-top: 20px;
     color: white;
     font-size: 50px;
@@ -318,7 +324,7 @@ justify-self: center;
     margin-bottom: 30px;
 }
 
-.powerPerformanceText .powerPerformanceTextInner p{
+.powerPerformanceText .powerPerformanceTextInner p {
     margin-top: 20px;
     color: white;
     font-size: 22px;
@@ -329,13 +335,13 @@ justify-self: center;
 
 /* letWork */
 
-.letWork{
+.letWork {
     padding: 100px 0px;
     display: grid;
     background-color: #606060;
 }
 
-.letWorkInner{
+.letWorkInner {
     width: 90%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -343,40 +349,92 @@ justify-self: center;
     justify-self: center;
 }
 
-.letWorkInner .letWorkBox{
+.letWorkInner .letWorkBox {
     width: 95%;
     justify-self: center;
 }
 
-.letWorkBox#img img{
+.letWorkBox#img img {
     width: 100%;
     border-radius: 10px;
 }
 
 
-.letWorkBox .letWorkBoxTextInner .line{
+.letWorkBox .letWorkBoxTextInner .line {
     width: 150px;
     border-top: 4px #46D4FE solid !important;
     border: none;
     margin-bottom: 20px;
-}  
-
-.letWorkBox .letWorkBoxTextInner h3{
-  color: white;
-  font-size: 30px;
-  font-weight: 800;
 }
-.letWorkBox .letWorkBoxTextInner h3 span{
+
+.letWorkBox .letWorkBoxTextInner h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.letWorkBox .letWorkBoxTextInner h3 span {
     color: #46D4FE;
     font-size: 55px;
 }
 
-.letWorkBox .letWorkBoxTextInner p{
+.letWorkBox .letWorkBoxTextInner p {
     color: white;
     font-size: 18px;
     word-spacing: 1px;
     line-height: 30px;
-  }
+}
+
+
+
+/* changeManagement */
+
+.changeManagement {
+    margin-top: 100px;
+    display: grid;
+}
+
+
+.changeManagementInner {
+    grid-template-columns: 1fr 1.5fr;
+    display: grid;
+    width: 90%;
+    justify-self: center;
+    align-items: center;
+}
+
+.changeManagementBox{
+    width: 80%;
+    justify-self: center;
+}
+
+.changeManagementBox#text1 .line {
+    width: 150px;
+    border-top: 4px#5f54a9 solid !important;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.changeManagementBox#text1 h3{
+    font-size: 60px;
+    font-weight: 800;
+    color: #4A4A4A;
+    line-height: 65px;
+    margin: 30px 0px;
+}
+
+.changeManagementBox#text1 p{
+    font-size: 25px;
+    color: #4A4A55;
+}
+
+
+.changeManagementBox#text2 p{
+    color: #4A4F4F;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
 
 
 
@@ -385,17 +443,45 @@ justify-self: center;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .changeManagementInner{
+        width: 95%;
+    }
+    .changeManagementBox{
+        width: 95%;
+    }
+}
 
 
 
 
 @media screen and (max-width:1024px) {
-    .modelsInner{
+    .modelsInner {
         width: 90%;
     }
 
-    .serviceInner{
+    .serviceInner {
         width: 90%;
+    }
+
+    .changeManagementInner{
+        grid-template-columns: 1fr;
+    }
+
+    .changeManagementBox{
+        width: 90%;
+        margin-top: 10px;
     }
 }
 
@@ -403,7 +489,7 @@ justify-self: center;
 
 @media screen and (max-width:768px) {
 
- 
+
     .heroText h3 {
         font-size: 2.3rem;
     }
@@ -426,77 +512,96 @@ justify-self: center;
     }
 
 
-/* models */
-    .modelsInner{
+    /* models */
+    .modelsInner {
         grid-template-columns: 1fr;
     }
 
-    .modelsBox{
+    .modelsBox {
         margin: 20px 0px;
     }
 
     .modelsBoxIcon {
         font-size: 30px;
     }
-    .modelsBox h3{
+
+    .modelsBox h3 {
         font-size: 23px;
     }
 
 
 
-/* first step */
+    /* first step */
 
-    .firstStepText .firstStepTextInner{
+    .firstStepText .firstStepTextInner {
         width: 90%;
         justify-self: center;
     }
-    
-    .firstStepText h3{
+
+    .firstStepText h3 {
         font-size: 28px;
     }
 
 
 
     /* service */
-    .serviceInner{
+    .serviceInner {
         grid-template-columns: 1fr;
     }
 
-    .serviceIntroText h3{
+    .serviceIntroText h3 {
         font-size: 30px;
     }
 
-    .serviceBox{
+    .serviceBox {
         margin: 20px 0px;
     }
 
     .serviceBoxIcon {
         font-size: 30px;
     }
-    .serviceBox h3{
+
+    .serviceBox h3 {
         font-size: 23px;
     }
 
 
     /* powerPerformanceText */
 
-    .powerPerformanceText .powerPerformanceTextInner h3{
+    .powerPerformanceText .powerPerformanceTextInner h3 {
         font-size: 30px;
     }
-    .powerPerformanceText .powerPerformanceTextInner p{
+
+    .powerPerformanceText .powerPerformanceTextInner p {
         font-size: 20px;
     }
 
 
     /* letWork */
-    .letWorkInner{
+    .letWorkInner {
         grid-template-columns: 1fr;
     }
-    .letWorkBox{
+
+    .letWorkBox {
         margin-top: 20px;
     }
-    
-    .letWorkBox .letWorkBoxTextInner h3 span{
+
+    .letWorkBox .letWorkBoxTextInner h3 span {
         font-size: 30px;
     }
+
+/* changeMangement */
+    .changeManagementBox#text1 h3{
+        font-size: 30px;
+        line-height: 40px;
+        margin: 5px 0px;
+    }
+
+    .changeManagementBox#text1 p{
+        font-size: 23px;
+    }
+    
+.changeManagementBox#text2 p{
+    font-size: 16px;
+}
 }

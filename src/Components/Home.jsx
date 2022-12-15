@@ -154,7 +154,7 @@ function Home() {
                 <div className={style.letWorkInner}>
 
                     <div className={style.letWorkBox} id={style.img}>
-                        <img src={letwork} alt=""/>
+                        <img src={letwork} alt="" />
                     </div>
 
                     <div className={style.letWorkBox} id={style.text}>
@@ -166,6 +166,45 @@ function Home() {
                     </div>
 
                 </div>
+
+            </div>
+
+            {/* changeManagement */}
+
+            <div className={style.changeManagement}>
+                <div className={style.changeManagementInner}>
+
+                    <div className={style.changeManagementBox} id={style.text1}>
+                        <div className={style.line}></div>
+                        <h3>Change <br /> Management <br /> Strategy</h3>
+                        <p>Operational Improvement Services.</p>
+                    </div>
+
+                    <div className={style.changeManagementBox} id={style.text2}>
+                        <p>Sed volutpat interdum odio, id pulvinar leo vulputate et. Phasellus accumsan sapien sed sagittis ultricies. Quisque ac massa eu urna tincidunt efficitur vitae ut orci. Cras nec fermentum sem. Pellentesque mollis justo enim, id lobortis orci semper ut.</p>
+                        <p>Phasellus hendrerit risus a libero porta hendrerit. Aenean sed sem pharetra, laoreet eros eget, lobortis odio. In vitae sodales orci. Etiam dictum quam purus. Donec pharetra imperdiet elit, non placerat nulla egestas et. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque in quam arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla venenatis, turpis in dapibus auctor, libero urna sagittis quam, quis tristique nulla ipsum ac tortor. Nunc nulla nisi, convallis vel turpis at, facilisis tempus sem. Sed ut ex dictum felis sagittis efficitur vitae non lacus.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            {/* pricing */}
+
+            <div className={style.pricing}>
+                <div className={style.pricingInner}>
+                    <div className={style.pricingBox}>
+
+                    </div>
+                    <div className={style.pricingBox}>
+
+                    </div>
+                    <div className={style.pricingBox}>
+
+                    </div>
+                </div>
+
 
             </div>
 
