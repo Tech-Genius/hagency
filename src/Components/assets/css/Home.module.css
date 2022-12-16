@@ -409,7 +409,7 @@
     justify-self: center;
 }
 
-.changeManagementBox#text1{
+.changeManagementBox#text1 {
     margin-top: 30px;
 }
 
@@ -461,7 +461,7 @@
     align-items: center;
 }
 
-.pricingInner .pricingBox{
+.pricingInner .pricingBox {
     width: 80%;
     justify-self: center;
 }
@@ -653,7 +653,7 @@
 .blogInner .blogBox .blogImgNBtn .blogBtn {
     position: absolute;
     top: 0;
-    z-index: 990;
+    z-index: 50;
     width: 100%;
     background-color: #382c846e;
     height: 99%;
@@ -749,22 +749,22 @@
 
 /* work */
 
-.work{
-    background: linear-gradient(to right,#372C84,#46D4FE);
+.work {
+    background: linear-gradient(to right, #372C84, #46D4FE);
     padding: 100px 0px;
     display: grid;
 }
 
-.workInner{
-   display: flex;
-   width: 75%;
-   justify-self: center;
-   justify-content: space-evenly;
-   align-items: center;
-   flex-wrap: wrap;
+.workInner {
+    display: flex;
+    width: 75%;
+    justify-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.workInner h3{
+.workInner h3 {
     color: white;
     text-shadow: 3px 3px 15px rgb(10, 10, 10);
     font-size: 50px;
@@ -773,7 +773,7 @@
     font-weight: 800;
 }
 
-.workInner button{
+.workInner button {
     padding: 13px 38px;
     background-color: transparent;
     border-radius: 30px;
@@ -816,7 +816,8 @@
     .serviceInner {
         width: 90%;
     }
-    .blog .blogInner{
+
+    .blog .blogInner {
         width: 90%;
     }
 
@@ -833,15 +834,17 @@
 
 
 @media screen and (max-width:768px) {
-
+    .heroTextInner {
+        width: 90%;
+    }
 
     .heroText h3 {
-        font-size: 2.3rem;
+        font-size: 2.2rem;
     }
 
     .heroText p {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 26px;
     }
 
     .heroTextButtons button.letTalk {
@@ -954,6 +957,7 @@
     .pricing {
         padding: 50px 0px;
     }
+
     .pricingInner {
         grid-template-columns: 1fr;
     }
@@ -988,30 +992,34 @@
 
     /* blog */
 
-    .blogIntroText h3{
+    .blogIntroText h3 {
         font-size: 30px;
     }
-    .blog .blogInner{
+
+    .blog .blogInner {
         grid-template-columns: 1fr;
     }
 
 
-    .blog .blogInner .blogBox{
+    .blog .blogInner .blogBox {
         margin: 20px 0px;
     }
-    .blogInner .blogBox h3{
+
+    .blogInner .blogBox h3 {
         font-size: 25px;
     }
-    .blogInner .blogBox p{
+
+    .blogInner .blogBox p {
         font-size: 16px;
     }
 
 
     /* work */
-    .workInner{
+    .workInner {
         width: 90%;
     }
-    .workInner h3{
+
+    .workInner h3 {
         font-size: 30px;
         text-align: center;
     }

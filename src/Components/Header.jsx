@@ -27,12 +27,12 @@ function Header() {
 
                 <div className={isNavExpanded ? 'sm_menu': 'menu'}>
                     <ul className="menu_links">
-                        <li className="menu_item">Home</li>
-                        <li className="menu_item">About</li>
-                        <li className="menu_item">Portfolio</li>
-                        <li className="menu_item">Blog</li>
-                        <li className="menu_item button"><button>Let's Talk</button></li>
-                        <li className="menu_item"><FaSearch/></li>
+                        <li className="menu_item"><Link to={'/'} className="router_link">Home</Link></li>
+                        <li className="menu_item"><Link to={'/about'} className="router_link">About </Link></li>
+                        <li className="menu_item"><Link to={'/about'} className="router_link">Portfolio </Link></li>
+                        <li className="menu_item"><Link to={'/about'} className="router_link">Blog </Link></li>
+                        <li className="menu_item button"><Link to={'/about'} className="router_link"><button>Let's Talk</button> </Link></li>
+                        <li className="menu_item"><Link to={'/about'} className="router_link"><FaSearch/> </Link></li>
                     </ul>
                 </div>
 

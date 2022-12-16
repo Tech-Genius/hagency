@@ -30,7 +30,7 @@ function Home() {
                         <p>Curabitur vel posuere tellus. Nullam mollis interdum erat sit amet semper. Ut <br /> nec fringilla lorem. Donec ac mattis nibh. Praesent dui ex pharetra.</p>
                         <div className={style.heroTextButtons}>
                             <Link><button className={style.letTalk}>Let's Talk</button></Link>
-                            <Link><button className={style.knowMore}>Know More</button></Link>
+                            <Link to={'/about'}><button className={style.knowMore}>Know More</button></Link>
                         </div>
                     </div>
                 </div>
