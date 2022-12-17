@@ -1,0 +1,296 @@
+.portfolio {}
+
+.routerLink {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* .portfolioHero */
+
+.portfolioHero {
+    position: relative;
+    height: fit-content;
+}
+
+.portfolioHeroOverlay {
+    background: linear-gradient(#211E1E, #252322);
+}
+
+.portfolioHeroImage {
+    background-image: url(../images/hagency-2.jpg);
+    height: 60vh;
+    opacity: 0.4;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.portfolioHero .portfolioHeroText {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.portfolioHero .portfolioHeroText .portfolioHeroTextInner {
+    color: white;
+    text-align: center;
+}
+
+.portfolioHero .portfolioHeroText .portfolioHeroTextInner h3 {
+    font-size: 40px;
+}
+
+.portfolioHero .portfolioHeroText .portfolioHeroTextInner p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+
+
+
+
+/* latestProject */
+
+.latestProject {
+    margin-top: 100px;
+    display: grid;
+}
+
+
+.latestProjectInner {
+    grid-template-columns: 1fr 1.5fr;
+    display: grid;
+    width: 90%;
+    justify-self: center;
+    align-items: center !important;
+}
+
+.latestProjectBox {
+    width: 80%;
+    justify-self: center;
+}
+
+.latestProjectBox#text1 {}
+
+.latestProjectBox#text1 .line {
+    width: 150px;
+    border-top: 4px#5f54a9 solid !important;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.latestProjectBox#text1 h3 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #4A4A4A;
+    line-height: 65px;
+    margin: 30px 0px;
+}
+
+.latestProjectBox#text1 p {
+    font-size: 25px;
+    color: #4A4A55;
+}
+
+
+.latestProjectBox#text2 p {
+    color: #4A4F4F;
+    font-size: 18px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+
+
+/* projects */
+
+
+.projects{
+    display: grid;
+    margin-top: 100px;
+}
+
+.projectInner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    justify-self: center;
+   place-content: center;
+}
+
+.projectInner .projectBox{
+    width: 95%;
+    justify-self: center;
+background-color:#F9F9F9;
+margin: 20px 0px;
+cursor: pointer;
+}
+.projectInner .projectBox:hover{
+    opacity: 0.8;
+    transition: 0.4s linear;
+}
+.projectInner .projectBox img{
+    width: 100%;
+}
+
+
+.projectInner .projectBox h3{
+    margin: 10px;
+    color: #4A4A4A;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.projectInner .projectBox p{
+    margin: 10px;
+    color: #4A4A55;
+    font-size: 14px;
+}
+
+
+
+
+
+/* work */
+
+.work {
+    background: linear-gradient(to right, #372C84, #46D4FE);
+    padding: 100px 0px;
+    display: grid;
+    margin-top: 100px;
+}
+
+.workInner {
+    display: flex;
+    width: 75%;
+    justify-self: center;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.workInner h3 {
+    color: white;
+    text-shadow: 3px 3px 15px rgb(10, 10, 10);
+    font-size: 50px;
+    margin: 0px;
+    margin: 10px 0px;
+    font-weight: 800;
+}
+
+.workInner button {
+    padding: 13px 38px;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    border: 3px solid white;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .latestProjectInner {
+        width: 95%;
+    }
+
+    .latestProjectBox {
+        width: 95%;
+    }
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+    .latestProjectInner {
+        grid-template-columns: 1fr;
+    }
+
+    .latestProjectBox {
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+    /* .portfolioHero */
+    .portfolioHeroImage {
+        height: 40vh;
+    }
+
+    .portfolioHero .portfolioHeroText .portfolioHeroTextInner h3 {
+        font-size: 30px;
+    }
+
+
+    /* latestProject */
+    .latestProjectBox#text1 h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin: 5px 0px;
+    }
+
+    .latestProjectBox#text1 p {
+        font-size: 23px;
+    }
+
+    .latestProjectBox#text2 p {
+        font-size: 16px;
+    }
+
+
+
+    /* projects */
+
+    
+.projectInner{
+    grid-template-columns: 1fr;
+    width: 90%;
+}
+
+
+    /* work */
+    .workInner {
+        width: 90%;
+    }
+
+    .workInner h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+}

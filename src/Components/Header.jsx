@@ -29,7 +29,7 @@ function Header() {
                     <ul className="menu_links">
                         <li className="menu_item"><Link to={'/'} className="router_link">Home</Link></li>
                         <li className="menu_item"><Link to={'/about'} className="router_link">About </Link></li>
-                        <li className="menu_item"><Link to={'/about'} className="router_link">Portfolio </Link></li>
+                        <li className="menu_item"><Link to={'/portfolio'} className="router_link">Portfolio </Link></li>
                         <li className="menu_item"><Link to={'/about'} className="router_link">Blog </Link></li>
                         <li className="menu_item button"><Link to={'/about'} className="router_link"><button>Let's Talk</button> </Link></li>
                         <li className="menu_item"><Link to={'/about'} className="router_link"><FaSearch/> </Link></li>
