@@ -1,14 +1,27 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from './Components/Header'
-import { Route, Routes } from 'react-router-dom'
+import { useLocation,Route, Routes } from 'react-router-dom'
 import Footer from './Components/Footer'
 import Home from './Components/Home'
 import About from './Components/About'
 import Portfolio from './Components/Portfolio'
 
+
+
 function App() {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }, [pathname]);
+
+
 
   return (
     <>
@@ -25,3 +38,6 @@ function App() {
 }
 
 export default App
+
+
+

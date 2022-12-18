@@ -41,17 +41,24 @@ align-items: center;
     color: white;
 }
 
+.menu ul.menu_links .router_link:hover{
+    color: #4E93F4;
+    transition: 0.5s linear;
+}
+
 .menu ul.menu_links li{
     padding: 0px 20px;
     margin: 0;
     font-size: 17px;
     font-weight: bold;
-    color: white;
+    /* color: white; */
+    /* padding-top: 5px; */
 }
 
 .menu ul.menu_links li:hover{
-    box-shadow: inset 0px 1px 1px 1px #4E93F4;
-    transition: ease-in 0.5s;
+    /* box-shadow: inset 0px 1px 1px 1px #4E93F4;
+    transition: ease-in 0.5s; */
+
 }
 
 .menu ul.menu_links li button{

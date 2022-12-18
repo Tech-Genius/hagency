@@ -3,10 +3,13 @@ import { useState, useEffect } from 'react'
 import './assets/css/Header.css'
 import logo1 from './assets/images/hagency-white-logo.png'
 import { HiBars3BottomRight } from "react-icons/hi2";
-import { FaSearch } from "react-icons/fa";
+import { FaSearch, FaRegTimesCircle } from "react-icons/fa";
 
 function Header() {
     const [isNavExpanded, setIsNavExpanded] = useState(false)
+    const close = () => {
+        setIsNavExpanded(false);
+      };
     useEffect(() => {
         let header = document.getElementById("header");
         window.addEventListener("scroll", () => {
@@ -27,19 +30,23 @@ function Header() {
 
                 <div className={isNavExpanded ? 'sm_menu': 'menu'}>
                     <ul className="menu_links">
-                        <li className="menu_item"><Link to={'/'} className="router_link">Home</Link></li>
-                        <li className="menu_item"><Link to={'/about'} className="router_link">About </Link></li>
-                        <li className="menu_item"><Link to={'/portfolio'} className="router_link">Portfolio </Link></li>
-                        <li className="menu_item"><Link to={'/about'} className="router_link">Blog </Link></li>
-                        <li className="menu_item button"><Link to={'/about'} className="router_link"><button>Let's Talk</button> </Link></li>
-                        <li className="menu_item"><Link to={'/about'} className="router_link"><FaSearch/> </Link></li>
+                        <li onClick={close} className="menu_item"><Link to={'/'} className="router_link">Home</Link></li>
+                        <li onClick={close} className="menu_item"><Link to={'/about'} className="router_link">About </Link></li>
+                        <li onClick={close} className="menu_item"><Link to={'/portfolio'} className="router_link">Portfolio </Link></li>
+                        <li onClick={close} className="menu_item"><Link to={'/about'} className="router_link">Blog </Link></li>
+                        <li onClick={close} className="menu_item button"><Link to={'/about'} className="router_link"><button>Let's Talk</button> </Link></li>
+                        <li onClick={close} className="menu_item"><Link to={'/about'} className="router_link"><FaSearch/> </Link></li>
                     </ul>
                 </div>
 
                 <div className="sm_cntrl">
-                    <HiBars3BottomRight className='cntrl' onClick={()=>{
+                {!isNavExpanded ? 
+                    <HiBars3BottomRight className='cntrl' onClick={()=>
                         setIsNavExpanded(!isNavExpanded)
-                    }}/>
+                    }/> :    <FaRegTimesCircle className='cntrl' onClick={()=>
+                        setIsNavExpanded(!isNavExpanded)
+                    }/>
+                }
                 </div>
             </div>
         </div>
